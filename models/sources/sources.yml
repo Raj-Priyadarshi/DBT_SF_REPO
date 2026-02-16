@@ -1,0 +1,8 @@
+sources:
+  - name: staging
+    database: PC_DBT_DB  
+    schema: staging  
+    tables:
+      - name: bookings
+      - name: hosts
+      - name: listings
