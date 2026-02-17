@@ -23,3 +23,8 @@ models:
     bronze:
       +materialized: table
       +schema: bronze
+      +transient: false
+    silver:
+      +materialized: table
+      +schema: silver
+      +transient: false
